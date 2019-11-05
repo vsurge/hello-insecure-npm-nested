@@ -1,0 +1,31 @@
+{
+  "name": "hello-insecure",
+  "version": "1.0.0",
+  "description": "A sample insecure application for testing",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsurge/hello-insecure.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/vsurge/hello-insecure/issues"
+  },
+  "homepage": "https://github.com/vsurge/hello-insecure#readme",
+  "dependencies": {
+    "apache-2.0-licensed": "^1.0.1",
+    "gpl-2.0-licensed": "^1.0.0",
+    "jquery": "^2.1.1"
+  }
+}
